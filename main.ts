@@ -52,7 +52,7 @@ const arr : Array<any> = [
     console.log(arr);
     
     //************************************************ */
-interface iPerson {
+interface IPerson {
   name:string,
   age:number,
   hobbies: string[],
@@ -65,9 +65,9 @@ interface iPerson {
 // the naming convention for interfaces in TS is camelCase like:
 // interface iPerson
 
-type tPerson = {name:string,age:number,hobbies: string[],country:string};
+type TPerson = {name:string,age:number,hobbies: string[],country:string};
 
-const person : iPerson = {
+const person : IPerson = {
   name: 'Mostafa',
   age: 25 ,
   hobbies: ['sports', 'programming'],
